@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.m.myapplication.RancamayaFacilityActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/r1"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Pro Shop"/>
+
+            <ImageView
+                android:src="@drawable/r2"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Driving Range"/>
+
+            <ImageView
+                android:src="@drawable/r3"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Restaurant"/>
+
+            <ImageView
+                android:src="@drawable/r4"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Rooms and Villas"/>
+
+            <ImageView
+                android:src="@drawable/r5"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Country Club"/>
+
+            <ImageView
+                android:src="@drawable/r6"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Lookers and Massage"/>
+
+            <ImageView
+                android:src="@drawable/r7"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Room Rental"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

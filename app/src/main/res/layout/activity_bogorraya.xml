@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#ffff"
+tools:context=".BogorrayaActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/g_bogorraya"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:background="@drawable/kiri"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/facility"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/actionbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/facility"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/hole"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/actionbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/hole"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/pricetag"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/actionbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pricetag"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:background="@drawable/kanan"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/call"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/actionbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/phonereceiver"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/map"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/actionbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/map"/>
+                </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/home"
+android:layout_margin="10dp"
+android:background="@drawable/actionbutton"
+android:layout_width="match_parent"
+android:layout_height="30dp">
+<ImageView
+                android:layout_margin="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/homebutton"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>

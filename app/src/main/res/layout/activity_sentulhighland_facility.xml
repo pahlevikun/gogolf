@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.m.myapplication.SentulhighlandFacilityActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/sh1"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Driving Range alongside a three-hole practice course"/>
+
+            <ImageView
+                android:src="@drawable/sh2"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Mini Olympic size swimming pool"/>
+
+            <ImageView
+                android:src="@drawable/sh3"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Vip Rooms / Meeting Rooms "/>
+
+            <ImageView
+                android:src="@drawable/sh4"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Bale Gede (Tournament Venue) 200 seats"/>
+
+            <ImageView
+                android:src="@drawable/sh5"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Pro Shop"/>
+
+            <ImageView
+                android:src="@drawable/sh6"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Sauna and massage"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

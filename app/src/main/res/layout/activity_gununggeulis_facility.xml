@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.m.myapplication.GununggeulisFacilityActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/gg1"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Great Lounge"/>
+
+            <ImageView
+                android:src="@drawable/gg2"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Restaurant"/>
+
+            <ImageView
+                android:src="@drawable/gg3"
+                android:layout_margin="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Pro shop"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
